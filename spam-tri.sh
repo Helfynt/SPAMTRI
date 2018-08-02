@@ -1,12 +1,11 @@
 <?php
-function banner(){
-system('cls') or system('clear');
-print "[•]=====================================================[•]"
-print "|# Quotes   : Welcome to Tools-xNot_Found                #|" | lolcat
-print "|# Author   : xNot_Found                                 #|" | lolcat
-print "|# Contact  : +12674783379                               #|" | lolcat
-print "|# Thanks To: All Member TERMUX TOOLS-ID                 #|" | lolcat
-print "[•]=====================================================[•]"
+clear
+echo "[•]=====================================================[•]"
+echo "|# Quotes   : Welcome to Tools-xNot_Found                #|" | lolcat
+echo "|# Author   : xNot_Found                                 #|" | lolcat
+echo "|# Contact  : +12674783379                               #|" | lolcat
+echo "|# Thanks To: All Member TERMUX TOOLS-ID                 #|" | lolcat
+echo "[•]=====================================================[•]"
 
 if (empty($argv[1]) or empty($argv[2])) {
 banner();
