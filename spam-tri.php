@@ -2,6 +2,8 @@
 function banner(){
 system('cls') or system('clear');
 print "============================================\n";
+print "       Pembuat Tools Ini : xNot_Found       \n";
+print "============================================\n";
 print " ____  __  ____      ____  ____   __   _  _ \n";
 print "/ ___)(  )/ ___) ___(_  _)(  __) / _\ ( \/ )\n";
 print "\___ \ )( \___ \(___) )(   ) _) /    \/ \/ \ \n";
@@ -12,9 +14,9 @@ print "============================================\n";
 }
 if (empty($argv[1]) or empty($argv[2])) {
 banner();
-echo "Usage : php ".$argv[0]." phone-number jumlah-request\n";
+echo "Usage : php ".$argv[0]." Nomor-Hp jumlah-request\n";
 echo "Example : ";
-echo "php ".$argv[0]." 0898xxxxxxxx 99999\n";
+echo "php ".$argv[0]." 0895xxxxxxxx 99999\n";
 }
 else {
 banner();
