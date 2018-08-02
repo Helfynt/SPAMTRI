@@ -1,4 +1,4 @@
-<?php
+#!/system/xbin/bash
 clear
 echo "[•]=====================================================[•]"
 echo "|# Quotes   : Welcome to Tools-xNot_Found                #|" | lolcat
