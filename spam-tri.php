@@ -14,7 +14,7 @@ print "============================================\n";
 }
 if (empty($argv[1]) or empty($argv[2])) {
 banner();
-echo "Cara Pakai : php ".$argv[0]." Nomor-Hp jumlah-request\n";
+echo "Cara Pakai : php ".$argv[0]." NomorHP jumlah\n";
 echo "Contoh : ";
 echo "php ".$argv[0]." 0895xxxxxxxx 99999\n";
 }
